@@ -1,0 +1,27 @@
+{
+  "name": "svgify",
+  "version": "0.0.0",
+  "description": "A browserify transform for requiring SVG files to embed directly in your code.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/svgify.git"
+  },
+  "keywords": [
+    "svg",
+    "transform",
+    "stream",
+    "browserify",
+    "embed",
+    "inline",
+    "element",
+    "group"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "through": "~2.3.4",
+    "trumpet": "~1.5.4"
+  }
+}
